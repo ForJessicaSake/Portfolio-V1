@@ -24,7 +24,6 @@ export const stackCategories = [
 			'Fastify',
 			'Express.js',
 			'Python',
-			'RESTful APIs',
 			'MongoDB',
 			'Mongoose',
 			'PostgreSQL',
@@ -37,7 +36,7 @@ export const stackCategories = [
 	},
 	{
 		label: 'Testing & CI/CD',
-		skills: ['Playwright', 'Jest', 'E2E Testing', 'Integration Testing', 'GitHub Actions']
+		skills: ['Playwright', 'Integration Testing', 'GitHub Actions']
 	},
 	{
 		label: 'Forms & Validation',
