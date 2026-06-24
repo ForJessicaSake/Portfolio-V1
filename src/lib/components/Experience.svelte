@@ -8,7 +8,7 @@
 		<p class="section-eyebrow reveal-child mb-5" style="--child-i: 0">experience</p>
 		<ul class="divide-y divide-rule">
 			{#each experience as job, i}
-				<li class="work-row reveal-child py-5 first:pt-0 last:pb-0" style="--child-i: {i + 1}">
+				<li class="work-row reveal-child py-4" style="--child-i: {i + 1}">
 					<div class="mb-2 flex items-baseline justify-between gap-6">
 						<div class="min-w-0">
 							<p class="text-[13px] leading-snug">

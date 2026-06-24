@@ -68,6 +68,7 @@
 
 html {
 	scroll-behavior: smooth;
+	overflow-x: clip;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -78,6 +79,7 @@ html {
 
 body {
 	position: relative;
+	overflow-x: clip;
 	background-color: var(--theme-bg);
 	color: var(--theme-ink);
 	font-family: var(--font-sans);
@@ -167,7 +169,6 @@ body::before {
 
 	.hero-word-wrap {
 		display: inline-block;
-		overflow: hidden;
 		vertical-align: bottom;
 	}
 
@@ -249,26 +250,19 @@ body::before {
 @media (prefers-reduced-motion: no-preference) {
 	.scroll-reveal:not(.is-visible) {
 		opacity: 0;
-		transform: translateY(24px);
 	}
 
 	.scroll-reveal.is-visible {
-		transition:
-			opacity 500ms var(--ease-out-expo),
-			transform 500ms var(--ease-out-expo);
+		transition: opacity 500ms var(--ease-out-expo);
 	}
 
 	.reveal-child {
 		opacity: 0;
-		transform: translateY(24px);
 	}
 
 	.scroll-reveal.is-visible .reveal-child {
 		opacity: 1;
-		transform: translateY(0);
-		transition:
-			opacity 500ms var(--ease-out-expo),
-			transform 500ms var(--ease-out-expo);
+		transition: opacity 500ms var(--ease-out-expo);
 		transition-delay: calc(var(--child-i, 0) * 60ms);
 	}
 }
@@ -362,11 +356,9 @@ body::before {
 /* Work rows */
 .work-row {
 	position: relative;
-	padding-inline: 0.75rem;
-	margin-inline: -0.75rem;
+	padding: 0.75rem;
 	border-radius: 4px;
 	transition:
-		transform 200ms ease,
 		background-color 200ms ease;
 }
 
@@ -384,7 +376,6 @@ body::before {
 }
 
 .work-row:hover {
-	transform: translateX(6px);
 	background-color: var(--theme-card);
 }
 
@@ -394,7 +385,7 @@ body::before {
 
 @media (prefers-reduced-motion: reduce) {
 	.work-row:hover {
-		transform: none;
+		background-color: var(--theme-card);
 	}
 }
 
