@@ -8,21 +8,21 @@ export interface ExperienceEntry {
 export const experience: ExperienceEntry[] = [
 	{
 		company: 'Peerless',
-		role: 'Frontend Engineer, Contract',
+		role: 'Frontend Engineer',
 		date: 'May 2026 – present',
 		description:
 			'Enterprise technology for banks and financial institutions — building the digital infrastructure behind modern Islamic and conventional finance products.'
 	},
 	{
 		company: 'EventFlutter',
-		role: 'Backend Engineer, Contract',
+		role: 'Backend Engineer',
 		date: 'Mar 2026 – Jun 2026',
 		description:
 			'Event management platform connecting creators, vendors, venue owners, and attendees — from discovery to ticketing to day-of coordination.'
 	},
 	{
 		company: 'Daply',
-		role: 'Fullstack Engineer, Contract',
+		role: 'Fullstack Engineer',
 		date: 'Apr 2024 – Jun 2026',
 		description:
 			'SaaS platform for team workflows, bug tracking, and sales automation — helping teams replace scattered tools with one structured system.'
