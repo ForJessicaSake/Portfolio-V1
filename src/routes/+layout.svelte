@@ -52,13 +52,13 @@
 	/>
 	<meta
 		name="description"
-		content="Jessica Ekpo is a Software Engineer with 3+ years building production fintech, SaaS, and developer tooling products. Based in Lagos, Nigeria."
+		content="Jessica is a Software Engineer with 3+ years building production fintech, SaaS, and developer tooling products. Based in Lagos, Nigeria."
 	/>
 	<meta
 		name="keywords"
-		content="Jessica Ekpo, Software Engineer, Frontend Engineer, Fullstack Engineer, React, Next.js, Svelte, TypeScript, Fintech, Lagos, Nigeria"
+		content="Jessica, Software Engineer, Frontend Engineer, Fullstack Engineer, React, Next.js, Svelte, TypeScript, Fintech, Lagos, Nigeria"
 	/>
-	<meta property="og:title" content="Jessica Ekpo — Software Engineer" />
+	<meta property="og:title" content="Jessica — Software Engineer" />
 	<meta
 		property="og:description"
 		content="3+ years shipping production software across fintech, SaaS, and developer tooling. Based in Lagos, Nigeria."
@@ -68,7 +68,7 @@
 	<meta property="og:image" content={OG_IMAGE} />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@forJessica_sake" />
-	<meta name="twitter:title" content="Jessica Ekpo — Software Engineer" />
+	<meta name="twitter:title" content="Jessica — Software Engineer" />
 	<meta
 		name="twitter:description"
 		content="3+ years shipping production software across fintech, SaaS, and developer tooling."
