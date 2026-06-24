@@ -28,7 +28,7 @@
 	const jsonLd = {
 		'@context': 'https://schema.org',
 		'@type': 'Person',
-		name: 'Jessica Ekpo',
+		name: 'Jessica',
 		jobTitle: 'Software Engineer',
 		...(siteReady ? { url: SITE_URL } : {}),
 		email: 'jessicajoseph1807@gmail.com',
@@ -42,7 +42,7 @@
 </script>
 
 <svelte:head>
-	<title>Jessica Ekpo — Software Engineer</title>
+	<title>Jessica — Software Engineer</title>
 	<link rel="icon" href={favicon} />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />

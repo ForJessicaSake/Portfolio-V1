@@ -49,7 +49,7 @@ export const stackCategories = [
 	},
 	{
 		label: 'Messaging & Notifications',
-		skills: ['Twilio', 'WhatsApp API', 'Email Templates', 'OTP Auth']
+		skills: ['Twilio', 'WhatsApp API', 'OTP Auth']
 	},
 	{
 		label: 'Tools & Workflow',

@@ -12,8 +12,8 @@ export const GOAL_TRACKER_LINK = 'https://github.com/ForJessicaSake/GoalTracker'
 export const GROCERY_STORE_LINK = '[GROCERY_STORE_LINK_PLACEHOLDER]';
 export const STICKY_NOTES_LINK = '[STICKY_NOTES_LINK_PLACEHOLDER]';
 export const SUNNY_SIDE_LINK = '[SUNNY_SIDE_LINK_PLACEHOLDER]';
-export const SITE_URL = '[SITE_URL_PLACEHOLDER]';
-export const OG_IMAGE = '[OG_IMAGE_PLACEHOLDER]';
+export const SITE_URL = 'https://jessicas-portfolio.vercel.app';
+export const OG_IMAGE = `${SITE_URL}/og.png`;
 
 export function isLinkReady(url: string): boolean {
 	return !url.startsWith('[');
