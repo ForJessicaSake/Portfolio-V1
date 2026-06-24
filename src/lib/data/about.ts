@@ -18,6 +18,6 @@ export const aboutHighlights = [
 ];
 
 export const aboutBio = [
-	"I'm a software engineer in Lagos with 3+ years of shipping production software — fintech ops dashboards, SaaS backends, event platforms, developer tooling. I've touched the full stack: consumer flows, subscription funnels, internal tools with RBAC, reconciliation, reporting, and greenfield APIs built from zero.",
+	"I'm a software engineer in Lagos with 3+ years of shipping production software — fintech ops dashboards, SaaS backends, event platforms, developer tooling. I've built consumer flows, subscription funnels, internal tools with RBAC, reconciliation, and reporting systems.",
 	"What I enjoy most is the hard middle — booking flows, real-time systems, dashboards where the engineering has to disappear and only the experience remains. I like owning something from design handoff to production, writing tests, and fixing what breaks when real users hit it.",
 ];

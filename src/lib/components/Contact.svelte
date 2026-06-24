@@ -13,28 +13,28 @@
 	}[] = [
 		{
 			label: 'Email',
-			display: 'jessicajoseph1807@gmail.com',
+			display: '',
 			href: 'mailto:jessicajoseph1807@gmail.com',
 			icon: 'email',
 			ready: true
 		},
 		{
 			label: 'GitHub',
-			display: 'github.com/ForJessicaSake',
+			display: '',
 			href: GITHUB_LINK,
 			icon: 'github',
 			ready: isLinkReady(GITHUB_LINK)
 		},
 		{
 			label: 'LinkedIn',
-			display: 'linkedin.com/in/jessica-ekpo',
+			display: '',
 			href: LINKEDIN_LINK,
 			icon: 'linkedin',
 			ready: isLinkReady(LINKEDIN_LINK)
 		},
 		{
 			label: 'Resume',
-			display: 'view resume',
+			display: '',
 			href: CV_LINK,
 			icon: 'resume',
 			ready: isLinkReady(CV_LINK)
