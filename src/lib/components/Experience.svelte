@@ -9,16 +9,11 @@
 		<ul class="divide-y divide-rule">
 			{#each experience as job, i}
 				<li class="work-row reveal-child py-4" style="--child-i: {i + 1}">
-					<div class="mb-2 flex items-baseline justify-between gap-6">
-						<div class="min-w-0">
-							<p class="text-[13px] leading-snug">
-								<span class="font-medium text-ink">{job.company}</span>
-								<span class="text-ink-faint"> · </span>
-								<span class="text-ink-mid">{job.role}</span>
-							</p>
-						</div>
-						<p class="shrink-0 text-[11px] tracking-wide text-ink-faint uppercase">{job.date}</p>
-					</div>
+					<p class="mb-2 text-[13px] leading-snug">
+						<span class="font-medium text-ink">{job.company}</span>
+						<span class="text-ink-faint"> · </span>
+						<span class="text-ink-mid">{job.role}</span>
+					</p>
 					<p class="max-w-[580px] text-[12px] leading-[1.7] text-ink-mid">{job.description}</p>
 				</li>
 			{/each}
