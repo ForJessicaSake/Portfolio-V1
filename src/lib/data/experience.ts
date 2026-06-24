@@ -23,7 +23,7 @@ export const experience: ExperienceEntry[] = [
 	{
 		company: 'Daply',
 		role: 'Fullstack Engineer',
-		date: 'Apr 2024 – Jun 2026',
+		date: 'Apr 2025 – Jun 2026',
 		description:
 			'SaaS platform for team workflows, bug tracking, and sales automation — helping teams replace scattered tools with one structured system.'
 	},
@@ -37,7 +37,7 @@ export const experience: ExperienceEntry[] = [
 	{
 		company: 'Brimble',
 		role: 'Frontend Engineer',
-		date: 'Apr 2023 – Nov 2023',
+		date: 'Apr 2023 – Oct 2023',
 		description:
 			'Developer tooling platform for deploying and hosting web applications — making it simple for teams to ship and scale on the web.'
 	}
