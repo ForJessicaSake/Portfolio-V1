@@ -39,7 +39,7 @@
 	</p>
 
 	<div class="flex flex-col gap-3 sm:flex-row sm:gap-4">
-		<a href="#work" class="hero-btn btn-fill w-full sm:w-auto">view work</a>
+		<a href="#work" class="hero-btn btn-fill w-full sm:w-auto">view works</a>
 		<a
 			href={CV_LINK}
 			class="hero-btn btn-ghost w-full sm:w-auto"

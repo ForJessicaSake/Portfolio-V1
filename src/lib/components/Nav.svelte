@@ -3,7 +3,7 @@
 	import ThemeToggle from '$lib/components/ThemeToggle.svelte';
 
 	const navLinks = [
-		{ label: 'work', href: '#work' },
+		{ label: 'works', href: '#work' },
 		{ label: 'projects', href: '#projects' },
 		{ label: 'writing', href: '#writing' },
 		{ label: 'about', href: '#about' }
