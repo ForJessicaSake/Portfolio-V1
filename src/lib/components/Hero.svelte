@@ -34,7 +34,7 @@
 
 	<p class="hero-body mb-8 max-w-[420px] text-[14px] leading-[1.75] text-ink-mid">
 		3+ years shipping production software across fintech, SaaS, and developer tooling. I specialise in
-		the hard middle — complex booking flows, real-time systems, reconciliation dashboards — where the
+	   complex step flows, real-time systems, reconciliation dashboards, where the
 		engineering has to disappear and only the experience remains.
 	</p>
 
