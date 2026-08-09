@@ -5,6 +5,7 @@ export const stackCategories = [
 			'JavaScript (ES6+)',
 			'TypeScript',
 			'React.js',
+			'React Native',
 			'Next.js',
 			'Svelte',
 			'HTML5',
@@ -14,7 +15,7 @@ export const stackCategories = [
 	},
 	{
 		label: 'State Management',
-		skills: ['Context API', 'Zustand', 'Jotai', 'React Query']
+		skills: ['Context API', 'Zustand', 'Jotai', 'Redux Toolkit (RTK)', 'Tanstack Query']
 	},
 	{
 		label: 'Backend & Services',

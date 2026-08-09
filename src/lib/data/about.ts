@@ -5,7 +5,7 @@ export const aboutHighlights = [
 	},
 	{
 		title: 'Zero to production-ready backend',
-		body: 'Architected EventFlutter’s NestJS APIs from scratch — multi-role auth with OTP verification, vendor escrow payments, ticketing, and notifications across FCM, email, and in-app via RabbitMQ.'
+		body: 'Architected EventFlutter’s APIs from scratch — multi-role auth with OTP verification, vendor escrow payments, ticketing, and notifications across FCM, email, and in-app via RabbitMQ.'
 	},
 	{
 		title: 'Ops tools people open every morning',
