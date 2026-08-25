@@ -61,7 +61,7 @@
 	<meta property="og:title" content="Jessica — Software Engineer" />
 	<meta
 		property="og:description"
-		content="3+ years shipping production software across fintech, SaaS, and developer tooling. Based in Lagos, Nigeria."
+		content="4+ years shipping production software across fintech, SaaS, and developer tooling. Based in Lagos, Nigeria."
 	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={SITE_URL} />
@@ -71,7 +71,7 @@
 	<meta name="twitter:title" content="Jessica — Software Engineer" />
 	<meta
 		name="twitter:description"
-		content="3+ years shipping production software across fintech, SaaS, and developer tooling."
+		content="4+ years shipping production software across fintech, SaaS, and developer tooling."
 	/>
 	<meta name="twitter:image" content={OG_IMAGE} />
 	{#if siteReady}

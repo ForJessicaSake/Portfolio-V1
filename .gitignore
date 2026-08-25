@@ -21,3 +21,7 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Local ERM PDF extraction cache/output
+scripts/.cache/
+scripts/output/
