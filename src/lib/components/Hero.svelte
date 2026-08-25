@@ -33,9 +33,7 @@
 	</h1>
 
 	<p class="hero-body mb-8 max-w-[440px] text-[14px] leading-[1.75] text-ink-mid">
-		3+ years shipping production software across fintech, SaaS, and developer tooling. I specialise in
-	   complex dashboard flows, real-time systems, reconciliation systems, where the
-		engineering has to disappear and only the experience remains.
+	4+ years building production software across fintech, SaaS, event platforms, and developer tooling. I specialise in taking complex product requirements and turning them into products that work well at scale.
 	</p>
 
 	<div class="flex flex-col gap-3 sm:flex-row sm:gap-4">
